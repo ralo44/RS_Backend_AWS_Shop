@@ -1,0 +1,42 @@
+export default [
+  {
+    count: 5,
+    description: "This game teaches management Halo4.",
+    id: "7567ec4b-b10c-48c5-9345-fc73c48a80aa",
+    price: 10,
+    title: "Halo 4",
+    // image: 'https://www.pethealthnetwork.com/sites/default/files/styles/large/public/cryptococcosis-in-cats-187961300.png?itok=8dmMOu6R',
+  },
+  {
+    count: 3,
+    description: "This game teaches management Grand theft Auto",
+    id: "7567ec4b-b10c-48c5-9345-fc73c48a80a0",
+    price: 27.4,
+    title: "GTA 4",
+    // image: 'https://papers.co/wallpaper/papers.co-nd71-cat-nose-cute-white-pink-animal-40-wallpaper.jpg?download=true',
+  },
+  {
+    count: 6,
+    description: "This game teaches management Need for speed.",
+    id: "7567ec4b-b10c-48c5-9345-fc73c48a80a2",
+    price: 37,
+    title: "Need for speed",
+    // image: 'https://www.offidocs.com/images/xcatsnosecat.jpg.pagespeed.ic.6zeyCEQCae.jpg',
+  },
+  {
+    count: 7,
+    description: "This game teaches management Star wars epidode One",
+    id: "7567ec4b-b10c-48c5-9345-fc73c48a80a1",
+    price: 11,
+    title: "Star Wars",
+    // image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQCrFNnAi9L8G2bVsbMagurkdvffcFkHyC92KXXCFrj4rM7VB-IZg39MrVAnaSD8_wZUu4&usqp=CAU',
+  },
+  {
+    count: 3,
+    description: "This game teaches management NBA.",
+    id: "7567ec4b-b10c-48c5-9345-fc73348a80a1",
+    price: 4,
+    title: "NBA 2K",
+    // image: 'https://upload.wikimedia.org/wikipedia/commons/2/27/Cat_nose_close-up.jpg',
+  },
+]

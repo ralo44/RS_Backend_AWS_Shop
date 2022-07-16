@@ -1,0 +1,43 @@
+service: product-service
+frameworkVersion: '3'
+
+custom:
+  webpack:
+    webpackConfig: ./webpack.config.js
+    includeModules: true
+  serverless-auto-swagger:
+    apiType: "httpApi"
+    generateSwaggerOnDeploy: true
+provider:
+  name: aws
+  runtime: nodejs12.x
+  stage: dev
+  region: 'us-east-2'
+  httpApi:
+    cors:
+      allowedOrigins:
+        - "*"
+        - https://d3mlc491807bq5.cloudfront.net
+      allowedHeaders:
+        - Content-Type
+        - Authorization
+      allowedMethods:
+        - GET
+plugins:
+  - serverless-auto-swagger
+  - serverless-webpack
+
+functions:
+  getProductsById:
+    handler: getProductsById.getProductsById
+    events:
+      - httpApi:
+          path: /products/{productId}
+          method: get
+  getProductsList:
+    handler: getProductsList.getProductsList
+    events:
+      - httpApi:
+          path: /products
+          method: get
+  
